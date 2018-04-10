@@ -124,7 +124,7 @@
 
   window.docsearch({
     apiKey: '48cb48b22351bc71ea5f12f4d1ede198',
-    indexName: 'bootstrap-v4',
+    indexName: 'bootstrap',
     inputSelector: '#search-input',
     algoliaOptions: {
       facetFilters: ['version:' + siteDocsVersion]
