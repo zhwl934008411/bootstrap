@@ -5,6 +5,12 @@ highlighter:    rouge
 kramdown:
   auto_ids:     true
 
+strict_front_matter: true
+liquid:
+  error_mode:       strict
+  strict_filters:   true
+  strict_variables: true
+
 # Permalinks
 permalink:      pretty
 
@@ -15,7 +21,7 @@ host:           0.0.0.0
 port:           9001
 baseurl:        ""
 url:            "https://getbootstrap.com"
-encoding:       UTF-8
+encoding:       "utf-8"
 exclude:
   - .git/
   - .github/
